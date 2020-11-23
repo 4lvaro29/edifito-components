@@ -1,0 +1,38 @@
+:root{
+    --edifito-blue: #1162AE;
+    --edifito-green: #84C54E;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+content {
+    margin-top: 1em;
+}
+
+.img-edifito {
+    width: 100px;
+    border-radius: .5em;
+
+}
+
+h6 {
+    color: var(--edifito-blue);
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card-header {
+    background-color: #ffffff;
+    box-shadow: -2px 4px 5px 3px rgba(0,0,0,0.09);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
