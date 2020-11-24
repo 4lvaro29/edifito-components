@@ -14,7 +14,7 @@ content {
 }
 
 .img-edifito {
-    width: 100px;
+    width: 70px;
     border-radius: .5em;
 
 }
@@ -34,5 +34,8 @@ h6 {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    ;
+}
+
+.text-box {
+    max-width: 50%;
 }
